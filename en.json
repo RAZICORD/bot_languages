@@ -39,7 +39,7 @@
       "author": "Vote from ${interaction.user.username}",
       "field_success": {
         "name": "NEW VOTE",
-        "value": "${interaction.user.username} just voted for **${interaction.guild.name}**. It is now at **${calculations_totals} votes**.It will be possible to vote in ${time__next_bump} minutes!"
+        "value": "${interaction.user.username} just voted for **${interaction.guild.name}**. It is now at **${calculs_totaux} votes**.It will be possible to vote in ${time__next_bump} minutes!"
       },
       "field_error": {
         "name": "ERROR",
@@ -50,7 +50,7 @@
       "author": "Bump of ${interaction.user.username}",
       "field_success": {
         "name": "NEW BUMP",
-        "value": "${interaction.user.username} just bumped to **${interaction.guild.name}**. It is now at **${calculations_totals} votes**.It will be possible to bump in ${time__next_bump} minutes!"
+        "value": "${interaction.user.username} just bumped to **${interaction.guild.name}**. It is now at **${calculs_totaux} votes**.It will be possible to bump in ${time__next_bump} minutes!"
       },
       "field_error": {
         "name": "ERROR",
