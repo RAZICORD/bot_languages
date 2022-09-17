@@ -30,10 +30,10 @@
     "suggestion": {
       "title": "Propose a suggestion for Razicord",
       "suggestion_choose": "Selected suggestion: ${choix}",
-      "bug_description": "suggestion description",
+      "suggestion_description": "suggestion description",
       "suggestion_description_placeholder": "Tell us what you would like to have as a new feature on Razicord",
       "banned_user": "Oops... It seems you can't report a bug",
-      "bug_sended": "Thank you! Your suggestion has just been sent to our developers!"
+      "suggestion_sended": "Thank you! Your suggestion has just been sent to our developers!"
     },
     "vote": {
       "author": "Vote from ${interaction.user.username}",
