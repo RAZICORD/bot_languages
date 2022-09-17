@@ -21,7 +21,7 @@
     },
     "bug": {
       "title": "Report a bug on Razicord",
-      "bug_choose": "Selected bug: ${choose}",
+      "bug_choose": "Selected bug: ${choix}",
       "bug_description": "Bug description",
       "bug_description_placeholder": "Tell us how you found this bug. Any details are helpful",
       "banned_user": "Oops... It looks like you can't report a bug.",
@@ -29,7 +29,7 @@
     },
     "suggestion": {
       "title": "Propose a suggestion for Razicord",
-      "suggestion_choose": "Selected suggestion: ${choice}",
+      "suggestion_choose": "Selected suggestion: ${choix}",
       "bug_description": "suggestion description",
       "suggestion_description_placeholder": "Tell us what you would like to have as a new feature on Razicord",
       "banned_user": "Oops... It seems you can't report a bug",
