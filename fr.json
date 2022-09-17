@@ -28,12 +28,12 @@
       "bug_sended": "Merci ! Votre bug vient d'être envoyé à nos développeurs !"
     },
     "suggestion":{
-      "title": "SProposer une suggestion pour Razicord",
+      "title": "Proposer une suggestion pour Razicord",
       "suggestion_choose": "Suggestion sélectionné: ${choix}",
-      "bug_description": "Description de la suggestion",
+      "suggestion_description": "Description de la suggestion",
       "suggestion_description_placeholder": "Dites nous ce que vous aimeriez avoir comme nouvelle feature sur Razicord",
       "banned_user": "Oups... Il semblerait que vous ne pouvez pas faire de signalement de bug.",
-      "bug_sended": "Merci ! Votre suggestion vient d'être envoyé à nos développeurs !"
+      "suggestion_sended": "Merci ! Votre suggestion vient d'être envoyé à nos développeurs !"
     },
     "vote":{
       "author": "Vote de ${interaction.user.username}",
