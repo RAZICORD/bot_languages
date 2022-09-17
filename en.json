@@ -43,7 +43,7 @@
       },
       "field_error": {
         "name": "ERROR",
-        "value": "You still can't vote. Please wait ``${ms(current_time * 1000, { long: true }}``!"
+        "value": "You still can't vote. Please wait ``${expiration}``!"
       }
     },
     "bump": {
@@ -54,7 +54,7 @@
       },
       "field_error": {
         "name": "ERROR",
-        "value": "Someone has already bumped this server. Please wait ``${ms(current_time * 1000, { long: true }}``!"
+        "value": "Someone has already bumped this server. Please wait ``${expiration}``!"
       }
     },
     "setup": {
