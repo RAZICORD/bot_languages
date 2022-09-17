@@ -1,0 +1,65 @@
+{
+  "language": {
+    "author": "Mateo M.",
+    "discord": 206117019752464384,
+    "version": "1.0.0"
+  },
+  "data": {
+    "bot":{
+      "data_system": "Information about the system",
+      "os": "Hosting platform",
+      "cpu": "CPU",
+      "memories_used": "RAM memory used",
+      "memories_unity": "Mb",
+      "data_bot": "Information about the bot",
+      "current_version": "Current version",
+      "initialised": "Bot initialized:",
+      "duration_initialised": "There are ${duration}",
+      "developer": "Developer",
+      "guilds_count": "Number of servers",
+      "users_count": "Number of users"
+    },
+    "bug":{
+      "title": "Signaler un bug sur Razicord",
+      "bug_choose": "Bug sélectionné: ${choix}",
+      "bug_description": "Description du bug",
+      "bug_description_placeholder": "Dites nous comment vous avez trouvé ce bug. Tout les détails sont utile",
+      "banned_user": "Oups... Il semblerait que vous ne pouvez pas faire de signalement de bug.",
+      "bug_sended": "Merci ! Votre bug vient d'être envoyé à nos développeurs !"
+    },
+    "suggestion":{
+      "title": "SProposer une suggestion pour Razicord",
+      "suggestion_choose": "Suggestion sélectionné: ${choix}",
+      "bug_description": "Description de la suggestion",
+      "suggestion_description_placeholder": "Dites nous ce que vous aimeriez avoir comme nouvelle feature sur Razicord",
+      "banned_user": "Oups... Il semblerait que vous ne pouvez pas faire de signalement de bug.",
+      "bug_sended": "Merci ! Votre suggestion vient d'être envoyé à nos développeurs !"
+    },
+    "vote":{
+      "author": "Vote de ${interaction.user.username}",
+      "field_success":{
+        "name": "NOUVEAU VOTE",
+        "value": "${interaction.user.username} vient de voter pour **${interaction.guild.name}**. Il est désormais à **${calculs_totaux} votes**.\nIl sera possible de voter dans ${time__next_bump} minutes !"
+      },
+      "field_error":{
+        "name": "ERREUR",
+        "value": "Vous ne pouvez toujours pas voter. Veuillez patienter ``${ms(temps_actuel * 1000, { long: true }}`` !"
+      }
+    },
+    "bump":{
+      "author": "Bump de ${interaction.user.username}",
+      "field_success":{
+        "name": "NOUVEAU BUMP",
+        "value": "${interaction.user.username} vient de bump pour **${interaction.guild.name}**. Il est désormais à **${calculs_totaux} votes**.\nIl sera possible de bump dans ${time__next_bump} minutes !"
+      },
+      "field_error":{
+        "name": "ERREUR",
+        "value": "Quelqu'un a déjà Bump ce serveur. Veuillez patienter ``${ms(temps_actuel * 1000, { long: true }}`` !"
+      }
+    },
+    "setup":{
+      "success": "Installation terminée avec succès ! (.gg/${invite.code})",
+      "error_permission": "Vous n'avez pas la permission"
+    }
+  }
+}
