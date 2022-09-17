@@ -1,11 +1,11 @@
 {
   "language": {
     "author": "Mateo M.",
-    "discord": 206117019752464384,
+    "discord": 206117019752464400,
     "version": "1.0.0"
   },
   "data": {
-    "bot":{
+    "bot": {
       "data_system": "Information about the system",
       "os": "Hosting platform",
       "cpu": "CPU",
@@ -19,47 +19,47 @@
       "guilds_count": "Number of servers",
       "users_count": "Number of users"
     },
-    "bug":{
-      "title": "Signaler un bug sur Razicord",
-      "bug_choose": "Bug sélectionné: ${choix}",
-      "bug_description": "Description du bug",
-      "bug_description_placeholder": "Dites nous comment vous avez trouvé ce bug. Tout les détails sont utile",
-      "banned_user": "Oups... Il semblerait que vous ne pouvez pas faire de signalement de bug.",
-      "bug_sended": "Merci ! Votre bug vient d'être envoyé à nos développeurs !"
+    "bug": {
+      "title": "Report a bug on Razicord",
+      "bug_choose": "Selected bug: ${choose}",
+      "bug_description": "Bug description",
+      "bug_description_placeholder": "Tell us how you found this bug. Any details are helpful",
+      "banned_user": "Oops... It looks like you can't report a bug.",
+      "bug_sended": "Thanks! Your bug has just been sent to our developers!"
     },
-    "suggestion":{
-      "title": "SProposer une suggestion pour Razicord",
-      "suggestion_choose": "Suggestion sélectionné: ${choix}",
-      "bug_description": "Description de la suggestion",
-      "suggestion_description_placeholder": "Dites nous ce que vous aimeriez avoir comme nouvelle feature sur Razicord",
-      "banned_user": "Oups... Il semblerait que vous ne pouvez pas faire de signalement de bug.",
-      "bug_sended": "Merci ! Votre suggestion vient d'être envoyé à nos développeurs !"
+    "suggestion": {
+      "title": "Propose a suggestion for Razicord",
+      "suggestion_choose": "Selected suggestion: ${choice}",
+      "bug_description": "suggestion description",
+      "suggestion_description_placeholder": "Tell us what you would like to have as a new feature on Razicord",
+      "banned_user": "Oops... It seems you can't report a bug",
+      "bug_sended": "Thank you! Your suggestion has just been sent to our developers!"
     },
-    "vote":{
-      "author": "Vote de ${interaction.user.username}",
-      "field_success":{
-        "name": "NOUVEAU VOTE",
-        "value": "${interaction.user.username} vient de voter pour **${interaction.guild.name}**. Il est désormais à **${calculs_totaux} votes**.\nIl sera possible de voter dans ${time__next_bump} minutes !"
+    "vote": {
+      "author": "Vote from ${interaction.user.username}",
+      "field_success": {
+        "name": "NEW VOTE",
+        "value": "${interaction.user.username} just voted for **${interaction.guild.name}**. It is now at **${calculations_totals} votes**.It will be possible to vote in ${time__next_bump} minutes!"
       },
-      "field_error":{
-        "name": "ERREUR",
-        "value": "Vous ne pouvez toujours pas voter. Veuillez patienter ``${ms(temps_actuel * 1000, { long: true }}`` !"
+      "field_error": {
+        "name": "ERROR",
+        "value": "You still can't vote. Please wait ``${ms(current_time * 1000, { long: true }}``!"
       }
     },
-    "bump":{
-      "author": "Bump de ${interaction.user.username}",
-      "field_success":{
-        "name": "NOUVEAU BUMP",
-        "value": "${interaction.user.username} vient de bump pour **${interaction.guild.name}**. Il est désormais à **${calculs_totaux} votes**.\nIl sera possible de bump dans ${time__next_bump} minutes !"
+    "bump": {
+      "author": "Bump of ${interaction.user.username}",
+      "field_success": {
+        "name": "NEW BUMP",
+        "value": "${interaction.user.username} just bumped to **${interaction.guild.name}**. It is now at **${calculations_totals} votes**.It will be possible to bump in ${time__next_bump} minutes!"
       },
-      "field_error":{
-        "name": "ERREUR",
-        "value": "Quelqu'un a déjà Bump ce serveur. Veuillez patienter ``${ms(temps_actuel * 1000, { long: true }}`` !"
+      "field_error": {
+        "name": "ERROR",
+        "value": "Someone has already bumped this server. Please wait ``${ms(current_time * 1000, { long: true }}``!"
       }
     },
-    "setup":{
-      "success": "Installation terminée avec succès ! (.gg/${invite.code})",
-      "error_permission": "Vous n'avez pas la permission"
+    "setup": {
+      "success": "Installation completed successfully! (.gg/${invite.code})",
+      "error_permission": "You do not have permission"
     }
   }
 }
