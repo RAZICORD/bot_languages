@@ -60,6 +60,24 @@
     "setup":{
       "success": "Installation terminée avec succès ! (.gg/${invite.code})",
       "error_permission": "Vous n'avez pas la permission"
+    },
+    "invite":{
+      "add_our_bot": "Ajouter le bot",
+      "add_your_bot": "Ajouter votre bot",
+      "our_website": "Notre site",
+      "support": "Notre serveur Discord",
+      "twitter": "Notre Twitter",
+      "message": "Voici comment ajouter le bot Razicord sur votre serveur."
+    },
+    "edit":{
+      "title": "Modification du serveur ${interaction.guild.name}",
+      "not_edit_label": "Ne pas changer la ligne ci-dessous !",
+      "not_edit_placeholder": "NE PAS MODIFIER !",
+      "new_description": "Nouvelle description",
+      "edit_content_placeholder": "Contenu de la réponse a modifier",
+      "id_discord_add": "ID du membre (Ex 206117019752464384)",
+      "id_discord_placeholder": "ID de l'utilisateur",
+      "not_permission": "Vous n'avez pas la permission d'executer ce type de commande."
     }
   }
 }
