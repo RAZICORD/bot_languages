@@ -59,7 +59,8 @@
     },
     "setup": {
       "success": "Installation completed successfully! (.gg/${invite.code})",
-      "error_permission": "You do not have permission"
+      "error_permission": "You do not have permission",
+      "not_setup": "Oups... Il est impossible d'exécuter cette commande le tant que le serveur n'a pas </setup:943144414329598023>"
     },
     "invite":{
       "add_our_bot": "Add bot",
@@ -77,7 +78,15 @@
       "edit_content_placeholder": "Content of the answer to be modified",
       "id_discord_add": "Member ID (Ex 206117019752464384)",
       "id_discord_placeholder": "User ID",
-      "not_permission": "You do not have permission to run this type of command."
+      "not_permission": "You do not have permission to run this type of command.",
+      "error_add_staff": "**OUPS ! Une erreur est survenue lors de l'ajout du membre du Staff !**",
+      "success_add_staff": "**Succès ! Ce staff peut désormais modifier les éléments du serveur depuis le bot et le site web !**",
+      "error_staff_added": "**OUPS ! Ce membre est déjà dans l'administration du serveur !**",
+      "error_staff_username": "**OUPS ! Vous devez mettre l'id du membre du Staff et non son pseudo !**",
+      "success_description_added": "**Mise à jour avec succès de la description du serveur !**",
+      "error_delete_staff": "**OUPS ! Une erreur est survenue lors de la suppression du membre du Staff !**",
+      "success_delete_staff": "**Succès ! Ce staff ne peut plus modifier les éléments du serveur depuis le bot !**",
+      "error_staff_not_staff": "**OUPS ! Ce membre n'est pas dans l'administration du serveur !**"
     }
   }
 }
