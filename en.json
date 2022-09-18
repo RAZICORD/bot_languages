@@ -61,8 +61,7 @@
       "success": "Installation completed successfully! (.gg/${invite.code})",
       "error_permission": "You do not have permission"
     },
-,
-    "prompt":{
+    "invite":{
       "add_our_bot": "Add bot",
       "add_your_bot": "Add your bot",
       "our_website": "Our site",
