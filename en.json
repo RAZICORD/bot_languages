@@ -60,7 +60,7 @@
     "setup": {
       "success": "Installation completed successfully! (.gg/${invite.code})",
       "error_permission": "You do not have permission",
-      "not_setup": "Oups... Il est impossible d'exécuter cette commande le tant que le serveur n'a pas </setup:943144414329598023>"
+      "not_setup": "Oops... It is impossible to execute this command the until the server has </setup:943144414329598023>"
     },
     "invite":{
       "add_our_bot": "Add bot",
@@ -79,14 +79,14 @@
       "id_discord_add": "Member ID (Ex 206117019752464384)",
       "id_discord_placeholder": "User ID",
       "not_permission": "You do not have permission to run this type of command.",
-      "error_add_staff": "**OUPS ! Une erreur est survenue lors de l'ajout du membre du Staff !**",
-      "success_add_staff": "**Succès ! Ce staff peut désormais modifier les éléments du serveur depuis le bot et le site web !**",
-      "error_staff_added": "**OUPS ! Ce membre est déjà dans l'administration du serveur !**",
-      "error_staff_username": "**OUPS ! Vous devez mettre l'id du membre du Staff et non son pseudo !**",
-      "success_description_added": "**Mise à jour avec succès de la description du serveur !**",
-      "error_delete_staff": "**OUPS ! Une erreur est survenue lors de la suppression du membre du Staff !**",
-      "success_delete_staff": "**Succès ! Ce staff ne peut plus modifier les éléments du serveur depuis le bot !**",
-      "error_staff_not_staff": "**OUPS ! Ce membre n'est pas dans l'administration du serveur !**"
+      "error_add_staff": "**OOPS! An error occurred while adding the staff member!"**,
+      "success_add_staff": "**Success! This staff can now edit server items from the bot and the website!"**,
+      "error_staff_added": "**OOPS! This member is already in the server administration !**",
+      "error_staff_username": "**YES ! You have to put the id of the staff member and not his nickname !**",
+      "success_description_added": "**Successfully updated the server description !**",
+      "error_delete_staff": "**OOPS! An error occurred while deleting the staff member !**",
+      "success_delete_staff": "**Success! This staff can no longer edit server items from the bot!**",
+      "error_staff_not_staff": "**OOPS! This member is not in the server administration !**"
     }
   }
 }
