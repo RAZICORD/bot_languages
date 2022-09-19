@@ -62,7 +62,7 @@
       "error_permission": "You do not have permission",
       "not_setup": "Oops... It is impossible to execute this command the until the server has </setup:943144414329598023>"
     },
-    "invite":{
+    "invite": {
       "add_our_bot": "Add bot",
       "add_your_bot": "Add your bot",
       "our_website": "Our site",
@@ -70,7 +70,7 @@
       "twitter": "Our Twitter",
       "message": "Here's how to add the Razicord bot to your server."
     },
-    "edit":{
+    "edit": {
       "title": "Editing the server ${interaction.guild.name}",
       "not_edit_label": "Do not change the line below!",
       "not_edit_placeholder": "DO NOT CHANGE!",
@@ -79,8 +79,8 @@
       "id_discord_add": "Member ID (Ex 206117019752464384)",
       "id_discord_placeholder": "User ID",
       "not_permission": "You do not have permission to run this type of command.",
-      "error_add_staff": "**OOPS! An error occurred while adding the staff member!"**,
-      "success_add_staff": "**Success! This staff can now edit server items from the bot and the website!"**,
+      "error_add_staff": "**OOPS! An error occurred while adding the staff member!**",
+      "success_add_staff": "**Success! This staff can now edit server items from the bot and the website!**",
       "error_staff_added": "**OOPS! This member is already in the server administration !**",
       "error_staff_username": "**YES ! You have to put the id of the staff member and not his nickname !**",
       "success_description_added": "**Successfully updated the server description !**",
